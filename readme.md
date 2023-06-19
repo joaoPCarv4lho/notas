@@ -90,3 +90,25 @@ git-pull
 git fetch
 ```
 - Faz o download dos objetos e dos refs vindo de outro repositório.
+
+  # ENVIANDO UM REPOSITÓRIO LOCAL PARA O GITHUB
+
+
+&nbsp;
+- Abra o arquivo que será empurrado para o GitHub no seu ambiente de desenvolvimento, (no meu caso utilizei o VsCode). Depois de abrir o se arquivo, abra o terminal(Ctrl + Shift +') ou você pode abrir direto pela barra de opções do VsCode clicando em Terminal > Novo Terminal. Após ter feito esse processo, digite o seguinte comando no terminal:
+```
+git status
+```
+Esse comando irá mostrar se o documento já foi commitado ou não. A seguir, execute o próximo comando:
+```
+git add .
+```
+Você irá atualizar e preparar o conteúdo para o próximo commit.
+
+
+&nbsp;
+- O próximo passo será executar o comando ```git commit -m "<descripition>"``` para gravar as atualizações no repositório,( lembre de colocar uma descrição decente pois o repositório será público).
+
+
+&nbsp;
+- Após esse passo a passo, você será redirecionado para o seu browser, basta apenas habilitar as autorizações e logo em seguida você será direcionado para sua conta do GitHub. E pronto, você conseguiu fazer o seu primeiro commit de muitos!
