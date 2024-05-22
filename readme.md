@@ -7,7 +7,7 @@ git --version
 Se o Git estiver instalado configure seu usuário e seu e-mail:
 ```bash
 git config --global user.name "seu nome"
-git config --global usr.name "seuemail@gmail.com"
+git config --global user.email "seuemail@gmail.com"
 ```
 Agora que você tem seu usuário e email configurados, para inicializar o local basta executar os seguintes comandos:
 ```bash
